@@ -1,0 +1,198 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Array-Utils-0.5
+    pathname: Z/ZM/ZMIJ/Array/Array-Utils-0.5.tar.gz
+    provides:
+      Array::Utils 0.5
+    requirements:
+      ExtUtils::MakeMaker 0
+  Authen-SASL-2.1700
+    pathname: E/EH/EHUELS/Authen-SASL-2.1700.tar.gz
+    provides:
+      Authen::SASL 2.1700
+      Authen::SASL::CRAM_MD5 2.1700
+      Authen::SASL::EXTERNAL 2.1700
+      Authen::SASL::Perl 2.1700
+      Authen::SASL::Perl::ANONYMOUS 2.1700
+      Authen::SASL::Perl::CRAM_MD5 2.1700
+      Authen::SASL::Perl::DIGEST_MD5 2.1700
+      Authen::SASL::Perl::EXTERNAL 2.1700
+      Authen::SASL::Perl::GSSAPI 2.1700
+      Authen::SASL::Perl::LOGIN 2.1700
+      Authen::SASL::Perl::PLAIN 2.1700
+    requirements:
+      Digest::HMAC_MD5 0
+      Digest::MD5 0
+      ExtUtils::MakeMaker 0
+      perl 5.006000
+  Digest-HMAC-1.04
+    pathname: A/AR/ARODLAND/Digest-HMAC-1.04.tar.gz
+    provides:
+      Digest::HMAC 1.04
+      Digest::HMAC_MD5 1.04
+      Digest::HMAC_SHA1 1.04
+    requirements:
+      Digest::MD5 2
+      Digest::SHA 1
+      ExtUtils::MakeMaker 0
+      perl 5.004
+  Encode-IMAPUTF7-1.05
+    pathname: P/PM/PMAKHOLM/Encode-IMAPUTF7-1.05.tar.gz
+    provides:
+      Encode::IMAPUTF7 1.05
+    requirements:
+      Encode 0
+      ExtUtils::MakeMaker 0
+      Test::NoWarnings 0
+  HTTP-Date-6.06
+    pathname: O/OA/OALDERS/HTTP-Date-6.06.tar.gz
+    provides:
+      HTTP::Date 6.06
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Time::Local 1.28
+      Time::Zone 0
+      perl 5.006002
+      strict 0
+  IO-Socket-SSL-2.083
+    pathname: S/SU/SULLR/IO-Socket-SSL-2.083.tar.gz
+    provides:
+      IO::Socket::SSL 2.083
+      IO::Socket::SSL::Intercept 2.056
+      IO::Socket::SSL::OCSP_Cache 2.083
+      IO::Socket::SSL::OCSP_Resolver 2.083
+      IO::Socket::SSL::PublicSuffix undef
+      IO::Socket::SSL::SSL_Context 2.083
+      IO::Socket::SSL::SSL_HANDLE 2.083
+      IO::Socket::SSL::Session_Cache 2.083
+      IO::Socket::SSL::Trace 2.083
+      IO::Socket::SSL::Utils 2.015
+    requirements:
+      ExtUtils::MakeMaker 0
+      Mozilla::CA 0
+      Net::SSLeay 1.46
+      Scalar::Util 0
+  Mail-IMAPClient-3.43
+    pathname: P/PL/PLOBBES/Mail-IMAPClient-3.43.tar.gz
+    provides:
+      Mail::IMAPClient 3.43
+      Mail::IMAPClient::BodyStructure undef
+      Mail::IMAPClient::BodyStructure::Address undef
+      Mail::IMAPClient::BodyStructure::Envelope undef
+      Mail::IMAPClient::BodyStructure::Parse undef
+      Mail::IMAPClient::BodyStructure::Part undef
+      Mail::IMAPClient::MessageSet undef
+      Mail::IMAPClient::Thread undef
+      Parse::RecDescent::Mail::IMAPClient::BodyStructure::Parse undef
+      Parse::RecDescent::Mail::IMAPClient::Thread undef
+    requirements:
+      Carp 0
+      Errno 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      File::Temp 0
+      IO::File 0
+      IO::Select 0
+      IO::Socket 0
+      IO::Socket::INET 1.26
+      List::Util 0
+      MIME::Base64 0
+      Parse::RecDescent 1.94
+      Test::More 0
+      perl 5.008
+  Mozilla-CA-20230821
+    pathname: L/LW/LWP/Mozilla-CA-20230821.tar.gz
+    provides:
+      Mozilla::CA 20230821
+    requirements:
+      ExtUtils::MakeMaker 0
+  Net-SSLeay-1.92
+    pathname: C/CH/CHRISN/Net-SSLeay-1.92.tar.gz
+    provides:
+      Net::SSLeay 1.92
+      Net::SSLeay::Handle 1.92
+    requirements:
+      English 0
+      ExtUtils::MakeMaker 0
+      File::Spec::Functions 0
+      MIME::Base64 0
+      Text::Wrap 0
+      constant 0
+      perl 5.008001
+  Parse-RecDescent-1.94
+    pathname: D/DC/DCONWAY/Parse-RecDescent-1.94.tar.gz
+    provides:
+      Parse::RecDescent 1.94
+      Parse::RecDescent::Action 1.94
+      Parse::RecDescent::ColCounter 1.94
+      Parse::RecDescent::Directive 1.94
+      Parse::RecDescent::Error 1.94
+      Parse::RecDescent::Expectation 1.94
+      Parse::RecDescent::InterpLit 1.94
+      Parse::RecDescent::LineCounter 1.94
+      Parse::RecDescent::Literal 1.94
+      Parse::RecDescent::OffsetCounter 1.94
+      Parse::RecDescent::Operator 1.94
+      Parse::RecDescent::Production 1.94
+      Parse::RecDescent::Repetition 1.94
+      Parse::RecDescent::Result 1.94
+      Parse::RecDescent::Rule 1.94
+      Parse::RecDescent::Subrule 1.94
+      Parse::RecDescent::Token 1.94
+      Parse::RecDescent::UncondReject 1.94
+    requirements:
+      ExtUtils::MakeMaker 0
+      Text::Balanced 0
+  Test-NoWarnings-1.06
+    pathname: H/HA/HAARG/Test-NoWarnings-1.06.tar.gz
+    provides:
+      Test::NoWarnings 1.06
+      Test::NoWarnings::Warning 1.06
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::Builder 0.86
+      perl 5.006
+  TimeDate-1.20
+    pathname: G/GB/GBARR/TimeDate-1.20.tar.gz
+    provides:
+      Date::Format 2.24
+      Date::Format::Generic 2.24
+      Date::Language 1.10
+      Date::Language::Afar 0.99
+      Date::Language::Amharic 1.00
+      Date::Language::Austrian 1.01
+      Date::Language::Brazilian 1.01
+      Date::Language::Chinese 1.00
+      Date::Language::Chinese_GB 1.01
+      Date::Language::Czech 1.01
+      Date::Language::Danish 1.01
+      Date::Language::Dutch 1.02
+      Date::Language::English 1.01
+      Date::Language::Finnish 1.01
+      Date::Language::French 1.04
+      Date::Language::Gedeo 0.99
+      Date::Language::German 1.02
+      Date::Language::Greek 1.00
+      Date::Language::Hungarian 1.01
+      Date::Language::Icelandic 1.01
+      Date::Language::Italian 1.01
+      Date::Language::Norwegian 1.01
+      Date::Language::Oromo 0.99
+      Date::Language::Romanian 1.01
+      Date::Language::Russian 1.01
+      Date::Language::Russian_cp1251 1.01
+      Date::Language::Russian_koi8r 1.01
+      Date::Language::Sidama 0.99
+      Date::Language::Somali 0.99
+      Date::Language::Spanish 1.00
+      Date::Language::Swedish 1.01
+      Date::Language::Tigrinya 1.00
+      Date::Language::TigrinyaEritrean 1.00
+      Date::Language::TigrinyaEthiopian 1.00
+      Date::Language::Turkish 1.0
+      Date::Parse 2.30
+      Time::Zone 2.24
+      TimeDate undef
+    requirements:
+      ExtUtils::MakeMaker 0
